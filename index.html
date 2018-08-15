@@ -88,10 +88,7 @@
 							<div class="container">
 						<div class="callto-action-wrap col-lg-12 relative section-gap">
 							<ul class="ul_txt">
-								  <li class="li_txt"><a class="a_txt" href="#home">Home</a></li>
-								  <li class="li_txt"><a class="a_txt" href="#home">Home</a></li>
-								  <li class="li_txt"><a class="a_txt" href="#home">Home</a></li>
-								  <li class="li_txt"><a class="a_txt" href="#home">Home</a></li>
+								  <li class="li_txt" onclick="javascript:func(this)"><a class="a_txt" href="#home" id="a"><input value="asdsda" type="text"> Home</a>
 							</ul>							
 						</div>
 						<p class="mx-auto" style="color: white; margin: 30px 0 0 0;">
@@ -107,10 +104,38 @@
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="js/main.js"></script>	
+			<textarea id=t></textarea>
+
+  <button onclick="copy('hello world')">
+    Click me
+  </button>
 		</body>
 	</html>
 
 	<script type="text/javascript">
-		
-
+		function copy(text) {
+      var t = document.getElementById('t')
+      t.innerHTML = text
+      t.select()
+      try {
+        var successful = document.execCommand('copy')
+        var msg = successful ? 'successfully' : 'unsuccessfully'
+        console.log('text coppied ' + msg)
+      } catch (err) {
+        console.log('Unable to copy text')
+      }
+      t.innerHTML = ''
+    }
 	</script>
+
+
+
+
+
+
+
+
+
+
+
+
