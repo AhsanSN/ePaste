@@ -19,23 +19,6 @@ $(document).ready(function() {
         $('select').niceSelect();
     };
 
-    //------- Lightbox  js --------//  
-
-    $('.img-gal').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
-
-    $('.play-btn').magnificPopup({
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
-    });
-
     //------- Superfist nav menu  js --------//  
 
     $('.nav-menu').superfish({
@@ -405,3 +388,5 @@ $(document).ready(function() {
     });
 
 });
+
+
