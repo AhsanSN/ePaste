@@ -6,7 +6,6 @@
 		@import url('https://fonts.googleapis.com/css?family=Damion|Muli:400,600');
 body{
   font-family: 'Muli', sans-serif;
-  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/geometry2.png");
 }
 h2 {
     font-family: 'Damion', cursive;
@@ -83,6 +82,9 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 				  				<a href="tel:+92 336 2286 024">+92 336 2286 024</a>
 				  				<a href="mailto:sa02908@st.habib.edu.pk">sa02908@st.habib.edu.pk</a>					  
 				  			</div>
+				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
+				  				 <a href="https://github.com/ahsansn">Source code available here.</a>
+				  			</div>
 				  		</div>			  					
 		  			</div>
 				</div>
@@ -142,14 +144,16 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 								  <li class="li_txt" onclick="copy('my text 5')"><a class="a_txt" href="#home" id="a">Home 5</a>
 							</ul>							
 						</div>
-						<p class="mx-auto" style="color: white; margin: 30px 0 0 0;">
+						<p class="mx-auto" style="color: white; margin: 30px 0 0 0; font-size: 20px;">
 							Click a text to copy it.
 						</p>
 
 					</div>
 				</div>	
 				<div class="callto-action-wrap col-lg-12 relative section-gap" style="position: absolute; bottom: 15px; padding: 0 0px 0 0px; height: 40px; width: 80%;">
-					<input required="" type="text" name="email" class="form-control form-control-lg input-block js-email-notice-trigger" placeholder="Post a snippet!">
+					<form method="post" action="index.php">
+						<input required="" type="text" name="snip" class="form-control form-control-lg input-block js-email-notice-trigger" placeholder="Post a snippet!">
+					</form>
 				</div>
 																
 					</div>
