@@ -119,10 +119,9 @@
 						<div class="banner-content col-lg-9 col-md-12 justify-content-center ">
 							<div class="container">
 						<div class="callto-action-wrap col-lg-12 relative section-gap">
-							<div class="alert success">
-  <span class="closebtn">&times;</span>  
-  <strong>Success!</strong> Indicates a successful or positive action.
-</div>
+							<div class="alert success" id="alertBox" style="display: none;">
+							  <strong>Snippet copied successfully!</strong>
+							</div>
 
 							<ul class="ul_txt">
 								  <li class="li_txt" onclick="copy('my text 1')"><a class="a_txt" href="#home" id="a">Home 1</a>
@@ -152,15 +151,9 @@
 	</html>
 
 	<script type="text/javascript">
-		var close = document.getElementsByClassName("closebtn");
-		var i;
-
-		for (i = 0; i < close.length; i++) {
-		    close[i].onclick = function(){
-		        var div = this.parentElement;
-		        div.style.opacity = "0";
-		        setTimeout(function(){ div.style.display = "none"; }, 600);
-		    }
+		function showAlert(){
+			document.getElementById("alertBox").style.display = "block";
+			setTimeout(function(){ document.getElementById("alertBox").style.display = "none"; }, 2000);
 		}
 
 		function copy(text) {
@@ -171,6 +164,7 @@
 		      var successful = document.execCommand('copy')
 		      var msg = successful ? 'successfully' : 'unsuccessfully'
 		      console.log('text coppied ' + msg)
+		      showAlert();
 		    } catch (err) {
 		      console.log('Unable to copy text')
 		    }
