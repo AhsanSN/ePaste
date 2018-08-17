@@ -9,7 +9,7 @@ The easiest way to share text snippets with someone sitting with you.
     <tr>
       <!-- Video 1 -->
       <td align="center">
-          <img width="300" alt="ePaste" src="/screenshots/Screenshot%20(518).png">
+          <img width="300" alt="ePaste" src="/screenshots/Screenshot%20(715).png">
           <br>
       </td>
     </tr>
