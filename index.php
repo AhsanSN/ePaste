@@ -107,11 +107,11 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 							</div>
 
 							<ul class="ul_txt">
-								  <li class="li_txt" onclick="copy('my text 1')"><a class="a_txt" href="#home" id="a">Home 1</a>
-								  <li class="li_txt" onclick="copy('my text 2')"><a class="a_txt" href="#home" id="a">Home 2</a>
-								  <li class="li_txt" onclick="copy('my text  3')"><a class="a_txt" href="#home" id="a">Home 3</a>
-								  <li class="li_txt" onclick="copy('my text 4')"><a class="a_txt" href="#home" id="a">Home 4</a>
-								  <li class="li_txt" onclick="copy('my text 5')"><a class="a_txt" href="#home" id="a">Home 5</a>
+								  <li class="li_txt" onclick="copy('my text 1')"><a class="a_txt" href="#home" id="a">sometext 1 </a>
+								  <li class="li_txt" onclick="copy('my text 2')"><a class="a_txt" href="#home" id="a">my name is ahsan</a>
+								  <li class="li_txt" onclick="copy('my text  3')"><a class="a_txt" href="#home" id="a">and i am a full stack developer</a>
+								  <li class="li_txt" onclick="copy('my text 4')"><a class="a_txt" href="#home" id="a">yaaaaay</a>
+								  <li class="li_txt" onclick="copy('my text 5')"><a class="a_txt" href="#home" id="a">hello world</a>
 							</ul>							
 						</div>
 						<p class="mx-auto" style="color: white; margin: 30px 0 0 0; font-size: 20px;">
