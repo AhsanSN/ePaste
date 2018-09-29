@@ -1,6 +1,6 @@
 # ePaste
-The easiest way to share text snippets with someone sitting with you. 
 
+A Text snippet sharing website where you post a text snippet like a URL on the website, and then when someone opens the website, the snippet is displayed there. When one clicks on the snippet, it gets coppied on the clipboard. The website can hold upto 5 snippets at a time.
 
 ## Screenshots
 
